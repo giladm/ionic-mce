@@ -1,0 +1,8 @@
+{
+  "name": "ionic-mce",
+  "app_id": "gilad.testsp",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

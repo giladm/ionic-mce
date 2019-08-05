@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>User Attributes</ion-title>
+  </ion-navbar>
+</ion-header>
+  <h3>Send User Attributes</h3>
+<ion-content padding>
+    <form [formGroup]="attrForm"  >
+        <ion-item>
+            <ion-label color="primary"><span style="color:blue">Enter attribute name:</span>{{attribute}}
+            </ion-label>
+        </ion-item>
+        <ion-item>
+            <ion-label><span style="color:blue">Enter attribute value:</span>{{value}}</ion-label>
+        </ion-item>
+        <button ion-button margin (click)="sendAttributes()" color="positive" style="text-transform: none;">Click to send</button>
+        
+    </form>
+</ion-content>
+        

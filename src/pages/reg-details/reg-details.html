@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>MCE Registration Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+  <h3>Welcome to Acoustic Campaign Automation first Ionic app</h3>
+
+  <p>
+    User Id: {{userId}}
+  </p>
+  <p>
+    Channel Id: {{channelId}}
+  </p>
+  <p>
+    appKey: {{appKey}}</p>
+  <p>
+    <button ion-button full (click)="showRegDetails()">Show Registration Details</button>
+  </p>
+
+</ion-content>
