@@ -11,18 +11,7 @@ The sample registers with MCE and provides sample code to access SDK API via Ion
 - ionic cordova platform add ios
 - ionic cordova platform add android
 ##### Add mce plugin to your app. Make sure you replace with your appKeys, server URL, etc. For  plugin settings check [MCE cordova SDK documentation](https://developer.ibm.com/customer-engagement/tutorials/creating-projects-with-apache-cordova-plugin/) 
-- ionic cordova plugin add ./path-to-mce-cordova-sdk/plugins/com.xtify.mce.sdk  
- --variable ANDROID_APPKEY=gcXXXX  
- --variable IOS_DEV_APPKEY=apXXXXXX  
- --variable IOS_PROD_APPKEY=apXXXXX  
- --variable SERVER_URL=https://apiX.ibm.xtify.com/3.0  
- --variable LOGLEVEL=verbose  
- --variable INVALIDATE_EXISTING_USER=true 
- --variable AUTO_INITIALIZE_LOCATION=false 
- --variable AUTO_REINITIALIZE=true 
- --variable CHANNEL_NAME="mce_cordova_channel" 
- --variable CHANNEL_DESCRIPTION="mce_sample_channel-Description" 
- --variable CHANNEL_ID="mce_channel1" --force  
+- ionic cordova plugin add ./path-to-mce-cordova-sdk/plugins/com.xtify.mce.sdk  --variable ANDROID\_APPKEY=gcXXXX  --variable IOS\_DEV\_APPKEY=apXXXXXX  --variable IOS\_PROD\_APPKEY=apXXXXX  --variable SERVER_URL=https://apiX.ibm.xtify.com/3.0 --variable LOGLEVEL=verbose  --variable AUTO_INITIALIZE_LOCATION=false --variable AUTO_REINITIALIZE=true  --variable INVALIDATE_EXISTING_USER=true --variable CHANNEL_NAME="mce_cordova_channel" --variable CHANNEL_DESCRIPTION="mce_channel-Description" --variable CHANNEL_ID="mce_channel1" --force  
 
 - ionic cordova plugin add ~/workspace/mce/sdk/cordova/ongoing-mce-cordova-sdk/plugins/com.xtify.mce.sdk.fcm
 - copy google-service.json to your project root folder
@@ -38,9 +27,9 @@ App registers with IBM Watson Customer Engagement platform and receives userId a
 
 # Dependencies 
 The sample program was tested using the following platfroms/versions
-npm         # 6.9.0
-ionic      	# 5.2.3
-cordova     # 9.0.0 (cordova-lib@9.0.1)
-cordova-res # 0.6.0 
-native-run	# 0.2.8
-ios-deploy	# 1.9.4
+- npm         # 6.9.0
+- ionic      	# 5.2.3
+- cordova     # 9.0.0 (cordova-lib@9.0.1)
+- cordova-res # 0.6.0 
+- native-run	# 0.2.8
+- ios-deploy	# 1.9.4
