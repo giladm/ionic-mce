@@ -8,6 +8,7 @@ The sample registers with MCE and provides sample code to access SDK API via Ion
 - git clone https://github.com/giladm/ionic-mce
 - cd ionic-mce
 - npm install
+- In config.xml file: replace id from 'com.replaceid' to the package used in android and to the bundleId used in iOS
 - ionic cordova platform add ios
 - ionic cordova platform add android
 ##### Add mce plugin to your app. Make sure you replace with your appKeys, server URL, etc. For  plugin settings check [MCE cordova SDK documentation](https://developer.ibm.com/customer-engagement/tutorials/creating-projects-with-apache-cordova-plugin/) 
